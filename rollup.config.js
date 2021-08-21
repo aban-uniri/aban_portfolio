@@ -64,7 +64,7 @@ const indexTemplate = `<!--
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-    <script defer src="<<live-preview-link>>/build/bundle.js"></script>
+    <script defer src="/build/bundle.js"></script>
   </head>
 
   <body class="text-blueGray-700 antialiased">
