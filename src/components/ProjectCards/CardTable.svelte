@@ -86,7 +86,7 @@
           icon={wip}
           percentage="10%"
           status="starting"
-          live_link="#"
+          live_link=""
           technologies="Raspberry Pi, AWS IoT, Svelte"
           description="Dashboard showing Raspberry Pi collected data."
           small_description="IoT Dashboard"
