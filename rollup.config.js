@@ -50,7 +50,6 @@ const indexTemplate = `<!--
 
     <link rel="shortcut icon" href="/aban_logo.ico" />
     <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
-    <link rel="stylesheet" href="/build/bundle.css" />
     <link
       rel="stylesheet"
       href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
@@ -159,7 +158,7 @@ export default {
       // we'll extract any component CSS out into
       // a separate file - better for performance
       css: (css) => {
-        css.write("bundle.css");
+        css.write("public/build/bundle.css");
       },
     }),
 
