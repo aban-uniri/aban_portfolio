@@ -6,5 +6,5 @@
 </script>
 
 <Router {url}>
-  <Route path="/" component={Profile} />
+  <Route path ="" component={Profile} />
 </Router>

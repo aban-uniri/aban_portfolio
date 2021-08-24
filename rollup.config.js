@@ -56,21 +56,20 @@ const indexTemplate = `<!--
     />
     <link rel="stylesheet" href="/assets/styles/tailwind.css" />
     <title>Antonio Ban's Portfolio</title>
+    <meta name="description" content="Portfolio of completed, ongoing and future projects by Antonio Ban.">
 
     <script>
       if (process === undefined) {
         var process = { env: {<<process-env-status>>} };
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
     <script defer src="/build/bundle.js"></script>
   </head>
 
   <body class="text-blueGray-700 antialiased">
     <noscript>
       <strong
-        >We're sorry but the portfolio doesn't work properly without
-        JavaScript enabled. Please enable it to continue.</strong
+        >Javascript is required to load the page.</strong
       >
     </noscript>
     <div id="app"></div>
@@ -157,9 +156,7 @@ export default {
       dev: !production,
       // we'll extract any component CSS out into
       // a separate file - better for performance
-      css: (css) => {
-        css.write("public/build/bundle.css");
-      },
+      emitCss: false
     }),
 
     // If you have external dependencies installed from
