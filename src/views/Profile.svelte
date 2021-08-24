@@ -112,15 +112,19 @@
                 <div class="w-full lg:w-9/12 px-4">
                   <h1 class="font-semibold text-lg my-2">About</h1>
                   <p class="mb-4 text-lg leading-relaxed text-blueGray-700">
-                    Coffee driven programmer that likes to try out all of the
-                    new upcoming tools, currently employed by iOLAP as a
-                    Fullstack developer working for iRobot and creating
-                    solutions in the cloud. Loves his dog, playing the guitar
-                    and an occasional basketball game.
+                    Hi! My name is Antonio Ban and I'm a programmer that likes
+                    to try out all of the new upcoming tools, currently employed
+                    by iOLAP as a Fullstack developer working for iRobot and
+                    creating solutions in the cloud. Loves his dog, playing the
+                    guitar and an occasional basketball game.
                   </p>
                   <p class="mb-4 text-lg leading-relaxed text-blueGray-700">
                     Here you can find a list of projects that I worked on,
-                    currently working on, or am planning to do.
+                    currently working on, or am planning to do. I'm most
+                    familliar with React/Python on AWS and I'm trying to expand
+                    my developer experience with side-projects that use
+                    different frameworks/programming languages or different
+                    cloud service providers.
                   </p>
                 </div>
               </div>
